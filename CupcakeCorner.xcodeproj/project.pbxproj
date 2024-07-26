@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B35A5FE2C5445B900286270 /* TestUrlSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A5FD2C5445B900286270 /* TestUrlSessionView.swift */; };
+		5B35A6002C54510900286270 /* TestAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A5FF2C54510900286270 /* TestAsyncImageView.swift */; };
 		5B8981432C4F7CED00AA1D50 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */; };
 		5B8981452C4F7CED00AA1D50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8981442C4F7CED00AA1D50 /* ContentView.swift */; };
 		5B8981472C4F7CEF00AA1D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8981462C4F7CEF00AA1D50 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		5B35A5FD2C5445B900286270 /* TestUrlSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUrlSessionView.swift; sourceTree = "<group>"; };
+		5B35A5FF2C54510900286270 /* TestAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncImageView.swift; sourceTree = "<group>"; };
 		5B89813F2C4F7CED00AA1D50 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		5B8981442C4F7CED00AA1D50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */,
 				5B8981442C4F7CED00AA1D50 /* ContentView.swift */,
 				5B35A5FD2C5445B900286270 /* TestUrlSessionView.swift */,
+				5B35A5FF2C54510900286270 /* TestAsyncImageView.swift */,
 				5B8981462C4F7CEF00AA1D50 /* Assets.xcassets */,
 				5B8981482C4F7CEF00AA1D50 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				5B8981452C4F7CED00AA1D50 /* ContentView.swift in Sources */,
 				5B35A5FE2C5445B900286270 /* TestUrlSessionView.swift in Sources */,
 				5B8981432C4F7CED00AA1D50 /* CupcakeCornerApp.swift in Sources */,
+				5B35A6002C54510900286270 /* TestAsyncImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
