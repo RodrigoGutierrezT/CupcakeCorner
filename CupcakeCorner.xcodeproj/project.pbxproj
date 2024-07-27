@@ -11,6 +11,7 @@
 		5B35A6002C54510900286270 /* TestAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A5FF2C54510900286270 /* TestAsyncImageView.swift */; };
 		5B35A6022C546F0200286270 /* TestDisablingFormsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A6012C546F0200286270 /* TestDisablingFormsView.swift */; };
 		5B35A6042C54ACC700286270 /* TestCodableObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A6032C54ACC700286270 /* TestCodableObservableView.swift */; };
+		5B35A6062C54BA9800286270 /* TestHapticEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A6052C54BA9800286270 /* TestHapticEffectView.swift */; };
 		5B8981432C4F7CED00AA1D50 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */; };
 		5B8981452C4F7CED00AA1D50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8981442C4F7CED00AA1D50 /* ContentView.swift */; };
 		5B8981472C4F7CEF00AA1D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8981462C4F7CEF00AA1D50 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		5B35A5FF2C54510900286270 /* TestAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncImageView.swift; sourceTree = "<group>"; };
 		5B35A6012C546F0200286270 /* TestDisablingFormsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDisablingFormsView.swift; sourceTree = "<group>"; };
 		5B35A6032C54ACC700286270 /* TestCodableObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCodableObservableView.swift; sourceTree = "<group>"; };
+		5B35A6052C54BA9800286270 /* TestHapticEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHapticEffectView.swift; sourceTree = "<group>"; };
 		5B89813F2C4F7CED00AA1D50 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		5B8981442C4F7CED00AA1D50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */,
+				5B35A6052C54BA9800286270 /* TestHapticEffectView.swift */,
 				5B8981442C4F7CED00AA1D50 /* ContentView.swift */,
 				5B35A5FD2C5445B900286270 /* TestUrlSessionView.swift */,
 				5B35A6012C546F0200286270 /* TestDisablingFormsView.swift */,
@@ -153,6 +156,7 @@
 				5B35A5FE2C5445B900286270 /* TestUrlSessionView.swift in Sources */,
 				5B35A6022C546F0200286270 /* TestDisablingFormsView.swift in Sources */,
 				5B8981432C4F7CED00AA1D50 /* CupcakeCornerApp.swift in Sources */,
+				5B35A6062C54BA9800286270 /* TestHapticEffectView.swift in Sources */,
 				5B35A6042C54ACC700286270 /* TestCodableObservableView.swift in Sources */,
 				5B35A6002C54510900286270 /* TestAsyncImageView.swift in Sources */,
 			);
@@ -288,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = XQT4XJ3N79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = XQT4XJ3N79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
