@@ -42,6 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B35A6072C55AA1300286270 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5B35A6052C54BA9800286270 /* TestHapticEffectView.swift */,
+				5B35A5FD2C5445B900286270 /* TestUrlSessionView.swift */,
+				5B35A6012C546F0200286270 /* TestDisablingFormsView.swift */,
+				5B35A6032C54ACC700286270 /* TestCodableObservableView.swift */,
+				5B35A5FF2C54510900286270 /* TestAsyncImageView.swift */,
+			);
+			path = TestFiles;
+			sourceTree = "<group>";
+		};
 		5B8981362C4F7CED00AA1D50 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */,
-				5B35A6052C54BA9800286270 /* TestHapticEffectView.swift */,
 				5B8981442C4F7CED00AA1D50 /* ContentView.swift */,
-				5B35A5FD2C5445B900286270 /* TestUrlSessionView.swift */,
-				5B35A6012C546F0200286270 /* TestDisablingFormsView.swift */,
-				5B35A6032C54ACC700286270 /* TestCodableObservableView.swift */,
-				5B35A5FF2C54510900286270 /* TestAsyncImageView.swift */,
+				5B35A6072C55AA1300286270 /* TestFiles */,
+				5B8981492C4F7CEF00AA1D50 /* Preview Assets.xcassets */,
 				5B8981462C4F7CEF00AA1D50 /* Assets.xcassets */,
 				5B8981482C4F7CEF00AA1D50 /* Preview Content */,
 			);
@@ -77,7 +86,6 @@
 		5B8981482C4F7CEF00AA1D50 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5B8981492C4F7CEF00AA1D50 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
