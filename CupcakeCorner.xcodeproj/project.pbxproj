@@ -14,6 +14,7 @@
 		5B35A6062C54BA9800286270 /* TestHapticEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A6052C54BA9800286270 /* TestHapticEffectView.swift */; };
 		5B35A6092C55BA1300286270 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A6082C55BA1300286270 /* Order.swift */; };
 		5B35A60B2C55BFE700286270 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A60A2C55BFE700286270 /* AddressView.swift */; };
+		5B35A60D2C55DDA700286270 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35A60C2C55DDA700286270 /* CheckoutView.swift */; };
 		5B8981432C4F7CED00AA1D50 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */; };
 		5B8981452C4F7CED00AA1D50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8981442C4F7CED00AA1D50 /* ContentView.swift */; };
 		5B8981472C4F7CEF00AA1D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8981462C4F7CEF00AA1D50 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		5B35A6052C54BA9800286270 /* TestHapticEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHapticEffectView.swift; sourceTree = "<group>"; };
 		5B35A6082C55BA1300286270 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		5B35A60A2C55BFE700286270 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		5B35A60C2C55DDA700286270 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		5B89813F2C4F7CED00AA1D50 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8981422C4F7CED00AA1D50 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		5B8981442C4F7CED00AA1D50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				5B8981442C4F7CED00AA1D50 /* ContentView.swift */,
 				5B35A60A2C55BFE700286270 /* AddressView.swift */,
 				5B35A6082C55BA1300286270 /* Order.swift */,
+				5B35A60C2C55DDA700286270 /* CheckoutView.swift */,
 				5B35A6072C55AA1300286270 /* TestFiles */,
 				5B8981492C4F7CEF00AA1D50 /* Preview Assets.xcassets */,
 				5B8981462C4F7CEF00AA1D50 /* Assets.xcassets */,
@@ -168,6 +171,7 @@
 			files = (
 				5B8981452C4F7CED00AA1D50 /* ContentView.swift in Sources */,
 				5B35A5FE2C5445B900286270 /* TestUrlSessionView.swift in Sources */,
+				5B35A60D2C55DDA700286270 /* CheckoutView.swift in Sources */,
 				5B35A6092C55BA1300286270 /* Order.swift in Sources */,
 				5B35A6022C546F0200286270 /* TestDisablingFormsView.swift in Sources */,
 				5B8981432C4F7CED00AA1D50 /* CupcakeCornerApp.swift in Sources */,
