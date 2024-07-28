@@ -66,6 +66,10 @@ struct CheckoutView: View {
             alertMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes in on the way!"
             showingConfirmation = true
             
+            if let data = try? JSONEncoder().encode(order) {
+                UserDefaults.standard.set(data, forKey: "lastOrder")
+            }
+            
         } catch {
             alertTitle = "Ups! something went wrong"
             alertMessage = "Failed to place the order 🥲"

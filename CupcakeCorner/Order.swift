@@ -10,6 +10,19 @@ import Foundation
 @Observable
 class Order: Codable {
     
+    init() {
+        if let savedItems = UserDefaults.standard.data(forKey: "lastOrder") {
+            if let decodedOrder = try? JSONDecoder().decode(Order.self, from: savedItems) {
+                name = decodedOrder.name
+                streetAddress = decodedOrder.streetAddress
+                city = decodedOrder.city
+                zip = decodedOrder.zip
+                
+                return
+            }
+        }
+    }
+    
     enum CodingKeys: String, CodingKey {
         case _type = "type"
         case _quantity = "quantity"
