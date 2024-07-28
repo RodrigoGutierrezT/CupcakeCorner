@@ -10,7 +10,8 @@ import SwiftUI
 struct CheckoutView: View {
     var order: Order
     
-    @State private var confirmationMessage = ""
+    @State private var alertTitle = ""
+    @State private var alertMessage = ""
     @State private var showingConfirmation = false
     
     var body: some View {
@@ -39,10 +40,10 @@ struct CheckoutView: View {
         .navigationTitle("Check out")
         .navigationBarTitleDisplayMode(.inline)
         .scrollBounceBehavior(.basedOnSize)
-        .alert("Thank you!", isPresented: $showingConfirmation) {
+        .alert(alertTitle, isPresented: $showingConfirmation) {
             Button("OK") {}
         } message: {
-            Text(confirmationMessage)
+            Text(alertMessage)
         }
     }
     
@@ -55,16 +56,20 @@ struct CheckoutView: View {
         let url = URL(string: "https://reqres.in/api/cupcakes")!
         var request = URLRequest(url: url)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpMethod = "Post"
+        request.httpMethod = "POST"
         
         do {
             let (data, _) = try await URLSession.shared.upload(for: request, from: encoded)
             
             let decodedOrder = try JSONDecoder().decode(Order.self, from: data)
-            confirmationMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes in on the way!"
+            alertTitle = "Thank you!"
+            alertMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes in on the way!"
             showingConfirmation = true
             
         } catch {
+            alertTitle = "Ups! something went wrong"
+            alertMessage = "Failed to place the order 🥲"
+            showingConfirmation = true
             print("Check out failed: \(error.localizedDescription)")
         }
     }
